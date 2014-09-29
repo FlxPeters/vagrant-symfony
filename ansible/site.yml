@@ -13,6 +13,7 @@
       - { name: curl, package: php5-curl }
       - { name: mcrypt, package: php5-mcrypt }
       - { name: mysql, package: php5-mysql }
+      - { name: memcache, package: php5-memcache }
       #- { name: redis, package: php5-redis }
       - { name: apc, package: php5-apcu }
     php_extensions:
@@ -26,6 +27,7 @@
     - php5-fpm
     - php5-cli
     - php5-common
+    - memcached
     - composer
     - mysql
     #- mongo
