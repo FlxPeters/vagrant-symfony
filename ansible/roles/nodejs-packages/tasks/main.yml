@@ -1,0 +1,2 @@
+#Install "bower" node.js package globally.
+-  npm: name=bower global=yes

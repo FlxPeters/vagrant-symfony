@@ -5,6 +5,7 @@
     doc_root: /var/www/web
     sys_packages:
       - mcrypt
+      - graphviz
     php_packages:
       - { name: dev, package: php5-dev }
       - { name: pear, package: php-pear }
@@ -26,12 +27,13 @@
     - php5-cli
     - php5-common
     - composer
-    - phpunit
     - mysql
     #- mongo
     - git
     - curl
     - sqlite
     - wget
+    - nodejs
+    - nodejs-packages
     #- rabbitmq
     #- redis
